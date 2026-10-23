@@ -9,8 +9,9 @@ A simple CRUD (Create, Read, Update, Delete) web application written in Java.
 - Delete a record
 
 ## Tech Stack
-- Java (version: TODO)
-- Spring Boot (TODO: verify in pom.xml / build.gradle)
+- Java 17+ (tested with Java 27)
+- Spring Boot 4.0.8
+- Vaadin
 - Build tools: Maven (`pom.xml`) and Gradle (`build.gradle`), both with wrapper scripts
 
 ## Project Structure
@@ -22,7 +23,7 @@ A simple CRUD (Create, Read, Update, Delete) web application written in Java.
 ## Getting Started
 
 ### Requirements
-- JDK 17 or newer (TODO: confirm required version)
+- JDK 17 or newer
 
 ### Run with Maven
 Windows:
@@ -38,7 +39,7 @@ Windows:
 Linux / macOS:
     ./gradlew bootRun
 
-After the app starts, open http://localhost:8080 in your browser (TODO: confirm port).
+After the app starts, open http://localhost:8080 in your browser.
 
 ## Screenshots
 Screenshots of the running application are in the `doc/` folder.
